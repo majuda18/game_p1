@@ -1,0 +1,73 @@
+/*
+
+TASK 3
+I would like for you to make 3 additions here that change stuff up
+maybe you want to add another border,
+or modify an element... etc
+it would be impressive if you used classnames and ids here/ w3 has good examples
+
+*/
+
+
+body {
+  text-align: center;
+  background-repeat: no-repeat;
+  font-family: cursive;
+  background-position: center;
+  border: 6px solid #e2231a;
+}
+header {
+     font-size: 500px;
+     font-style: normal;
+     margin: 0;
+     padding: 100px;
+     text-align: center;
+     background-size: contain;
+     background-position: center;
+}
+article{
+  max-width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+h1 {
+font-size: 10px;
+}
+img {
+ margin: 50px 0px 0px 0px;
+ width: 400px;
+ height: auto;
+ padding: 0;
+ border-radius: 30px;
+ border: 7px solid black;
+ top: 200px;
+
+}
+ul {
+  background: 0,0,0;
+  float: right;
+}
+ul li {
+ display: inline-block;
+ margin-top: 25px;
+}
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 1px solid #fff;
+}
+ul li a:hover{
+  background-color: black;
+}
+
+p {
+    font-family: sansn-serif;
+    padding: 0px;
+  text-align: inherit;
+  line-height: 30px;
+  bottom: 10px;
+  position: static;
+  margin: 0;
+  color: black;
+}
